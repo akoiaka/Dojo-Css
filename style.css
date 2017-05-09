@@ -208,7 +208,7 @@ html>body #menu li ul ul
 
 @media (max-width: 900px){
   nav {
-visibility: hidden; }
+    display: none; }
 
 
       label.toggle{
@@ -227,10 +227,10 @@ visibility: hidden; }
      cursor: pointer;
    }
 
-   /*hover ~ toggle,  nav {
+   hover ~ toggle,  label.toggle {
     display: block;
     cursor: pointer;
-  }*/
+  }
 
     nav li { float: none; }
     nav li:hover ul {
